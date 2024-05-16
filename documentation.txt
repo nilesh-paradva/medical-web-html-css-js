@@ -1,0 +1,23 @@
+Reference :- https://preview.colorlib.com/#mediplus
+
+primary-bg-color: #fff;
+secondary-bg-color1: #f8f9fa;
+secondary-bg-color2: #ffffff80;
+secondary-bg-color3: #207dff;
+primary-btn-bg-color: #207dff;
+secondary-btn-color2: #fe5f55;
+secondary-btn-color3: #fff;
+
+primary-text-heading-color: #000000e6;
+secondary-text-heading-color1: #000000;
+secondary-text-heading-color2: #fff;
+
+primary-text-dis-color: #999999;
+secondary-text-dis-color: #000000;
+secondary-text-dis-color2: #00000080;
+secondary-text-dis-color3: #207dff;
+secondary-text-dis-color4: #ffffffcc;
+secondary-text-dis-color5: #fe5f55;
+secondary-text-dis-color5: #ffffffb3;
+
+primary-font-family: "Poppins", Arial, sans-serif;

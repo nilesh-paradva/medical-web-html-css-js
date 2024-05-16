@@ -1,0 +1,759 @@
+
+@media (min-width: 1399px) {
+    
+    .container{
+        width: 1320px;
+    }
+    /* medi-common-css-start */
+    .w-xxl-none{
+        display: none;
+    }
+    .w-xxl-block{
+        display: block;
+    }
+    .w-xxl-flex{
+        display: flex;
+    }
+    /* medi-common-css-end */
+    .banner{
+        padding-top: 10em;
+    }
+    .medi-navbar-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+    #toggle-list{
+        display: block;
+    }
+    .w-xxl-1 {
+        width: 8.33%;
+    }
+    
+    .w-xxl-2 {
+        width: 16.66%;
+    }
+    
+    .w-xxl-3 {
+        width: 25%;
+    }
+    
+    .w-xxl-4 {
+        width: 33.33%;
+    }
+    
+    .w-xxl-5 {
+        width: 41.66%;
+    }
+    
+    .w-xxl-6 {
+        width: 50%;
+    }
+    
+    .w-xxl-7 {
+        width: 58.33%;
+    }
+    
+    .w-xxl-8 {
+        width: 66.66%;
+    }
+    
+    .w-xxl-9 {
+        width: 75%;
+    }
+    
+    .w-xxl-10 {
+        width: 83.33%;
+    }
+    
+    .w-xxl-11 {
+        width: 91.66%;
+    }
+    
+    .w-xxl-12 {
+        width: 100%;
+    }
+}
+
+/* 1200- 1399*/
+@media (max-width: 1399px) {
+    
+    .container{
+        width: 1140px;
+    }
+
+    /* medi-common-css-start */
+    .w-xl-none{
+        display: none;
+    }
+    .w-xl-block{
+        display: block;
+    }
+    .w-xl-end{
+        display: flex;
+        justify-content: end;
+    }
+    /* medi-common-css-start */
+
+    /* banner-start */
+    .banner{
+        padding-top: 10em;
+    }
+    .banner-heading{
+        font-size: 70px;
+    }
+    #toggle-list{
+        display: block;
+    }
+    /* banner-end */
+
+    .w-xl-1 {
+        width: 8.33%;
+    }
+    
+    .w-xl-2 {
+        width: 16.66%;
+    }
+    
+    .w-xl-3 {
+        width: 25%;
+    }
+    
+    .w-xl-4 {
+        width: 33.33%;
+    }
+    
+    .w-xl-5 {
+        width: 41.66%;
+    }
+    
+    .w-xl-6 {
+        width: 50%;
+    }
+    
+    .w-xl-7 {
+        width: 58.33%;
+    }
+    
+    .w-xl-8 {
+        width: 66.66%;
+    }
+    
+    .w-xl-9 {
+        width: 75%;
+    }
+    
+    .w-xl-10 {
+        width: 83.33%;
+    }
+    
+    .w-xl-11 {
+        width: 91.66%;
+    }
+    
+    .w-xl-12 {
+        width: 100%;
+    }
+}
+
+/* 992- 1199*/
+@media (max-width: 1199px) {
+    
+    .container{
+        width: 960px;
+    }
+
+    /* medi-common-css-start */
+    .w-lg-none{
+        display: none;
+    }
+    .w-lg-start{
+        display: flex;
+        justify-content: start;
+    }
+    .w-lg-block{
+        display: block;
+    }
+    .w-lg-center{
+        display: flex;
+        justify-content: center;
+    }
+    /* medi-common-css-end */
+    .banner-heading{
+        font-size: 55px;
+    }
+    #toggle-list{
+        display: block;
+    }
+    .w-lg-1 {
+        width: 8.33%;
+    }
+    
+    .w-lg-2 {
+        width: 16.66%;
+    }
+    
+    .w-lg-3 {
+        width: 25%;
+    }
+    
+    .w-lg-4 {
+        width: 33.33%;
+    }
+    
+    .w-lg-5 {
+        width: 41.66%;
+    }
+    
+    .w-lg-6 {
+        width: 50%;
+    }
+    
+    .w-lg-7 {
+        width: 58.33%;
+    }
+    
+    .w-lg-8 {
+        width: 66.66%;
+    }
+    
+    .w-lg-9 {
+        width: 75%;
+    }
+    
+    .w-lg-10 {
+        width: 83.33%;
+    }
+    
+    .w-lg-11 {
+        width: 91.66%;
+    }
+    
+    .w-lg-12 {
+        width: 100%;
+    }
+}
+
+/* 768-991 */
+@media (max-width: 992px) {
+    
+    .container{
+        width: 720px;
+    }
+    /* medi-common-css-start */
+    .w-md-none{
+        display: none;
+    }
+    .w-md-block{
+        display: block;
+    }
+    .w-md-between{
+        justify-content: space-between;
+    }
+    .w-md-block{
+        display: block;
+    }
+    /* medi-common-css-end */
+
+    /* medi-header-start */
+    .navbar{
+        background-color: black;
+    }
+    .navbar-logo a{
+       font-weight: 800;
+       color: var(--secondary-text-heading-color2);
+    }
+    .toggle-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        font-family: var(--primary-font-family);
+    }
+    #toggle-list{
+        display: none;
+    }
+    .navbar-ul{
+        flex-direction: column;
+        display: inline-block;
+    }
+    .navbar-ul li a{
+        color: white;
+        padding-left: 1em;
+    }
+    .navbar-ul li a:hover{
+        color: white;
+    }
+    .medi-navbar-btn1{
+        margin-left: 0.4em;
+        margin-bottom: 1em;
+        width: 100%;
+        padding-right: 1em;
+    }
+    .medi-navbar-btn1 a{
+        width: 100%;
+        color: white;
+    }
+    .medi-navbar-btn1 a:hover{
+        background-color: #fe5f55;
+        color: white;
+    }
+    /* medi-banner-start */
+    .medi-banner-pare{
+        text-align: left;
+    }
+    .banner-dis-1{
+        font-weight: 600;
+    }
+    .banner-dis-2 {
+        letter-spacing: 1px;
+        word-spacing: 900;
+    }
+    .banner-heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    /* medi-banner-end */
+
+    /* medi-mediplus-start */
+    .mediplus-pare{
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    .mediplus-heading{
+        font-size: 27px;
+        
+    }
+    .mediplus-dis{
+        font-size: 20px;
+    }
+    .mediplus-appo{
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        margin-left: -7px;
+        margin-bottom: 5px;
+    }
+    .mediplus-contact{
+        margin-left: -7px;
+    }
+    .mediplus-contact{
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    /* medi-mediplus-end */
+
+    /* medi-services-start */
+    .servi-heading2{
+        padding-left: 1.9em;
+        margin-bottom: 15px;
+    }
+    .servi-dis-1{
+        padding-left: 2.4em;
+        margin-bottom: 2em;
+        letter-spacing: 1px;
+    }
+    .medi-servi-icon2{
+        padding-left: 1em;
+    }
+    .servi-heading3{
+        padding-left: 2.3em;
+    }
+    .servi-dis-2{
+        padding-left: 3em;
+        margin-bottom: 15px;
+    }
+    .servi-heading4{
+        padding-left: 1.9em; 
+    }
+    .servi-dis-3{
+        padding-left: 2.4em;
+        margin-bottom: 0.1em; 
+    }
+    .servi-heading5{
+        padding-left: 2.3em;
+    }
+    .servi-dis-4{
+        padding-left: 3em;
+        margin-bottom: 15px;
+    }
+    .medi-servi-icon4{
+        padding-left: 1em;
+    }
+    .servi-appo-bg{
+        padding: 20px 10px;
+    }
+    .servi-appo{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .medi-servi-part{
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        padding-left: 2em;
+    }
+    .medi-servi-pare{
+        padding-top: 50px;
+        padding-left: 1em;
+        font-size: 30px;
+    }
+    
+    .servi-appo-btn{
+        padding: 20px 0px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /* medi-services-end */
+
+    /* medi-helth-start */
+    .helth-pare .helth-heading{
+        font-size: 50px;
+    }
+    .helth-pare .helth-dis{
+        letter-spacing: 1px;
+    }
+    /* medi-helth-end */
+
+    /* medi-helth-service-start */
+    .border-r-b{
+        border-right: none;
+    }
+    .helth-heading{
+        font-size: 30px;
+    }
+    /* medi-helth-service-end */
+
+    /*  medi-quali-doctors-start */
+    .quali-pare{
+        padding: 0px 45px;
+    }
+    .main-quli-doc{
+        padding: 0px 45px;
+    }
+    .quali-doc{
+        padding: 20px 0px;
+    }
+    .quali-pare h2{
+        font-size: 30px;
+        padding-top: 3em;
+    }
+    .quli-pare-dis{
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .quli-part{
+        margin-bottom: 30px;
+    }
+    
+    .quli-dis{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    /* medi-quali-doctors-end */
+
+    /* medi-doctors-staf-start  */
+    .doctors-staf-heading{
+        font-size: 25px;
+    }
+    .doctors-staf-btn{
+        padding: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .medi-doc-staf{
+        border: none;
+        border-bottom: 1px solid rgb(178, 173, 173);
+        padding: 20px 0px;
+    }
+    /* medi-doctors-staf-start  */
+
+    /* medi-update-start */
+    .medi-main-upd{
+        padding: 0px 14px;
+    }
+    .update-pare  .update-heading{
+        font-size: 25px;
+    }
+    /* medi-update-end */
+
+    /* medi-patient-start */
+    .medi-patie{
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pati-main-para .pati-heading{
+        font-size: 28px
+    }
+    /* medi-patient-end */
+
+    /* medi-contact-us-start */
+    .medi-contact-pare h1{
+        font-size: 30px;
+    }
+    .medi-contact-pare .section-tagline{
+        font-size: 18px;
+        line-height: 1.8em;
+    }
+    .contact-ico{
+        padding-top: 20px;
+    }
+    .contact-pare p{
+        padding-bottom: 3em;
+    }
+    .medi-contact-pare p{
+        font-size: 22px;
+    }
+    .medi-sub-contact{
+        margin-bottom: 2em;
+        padding: 0px 15px;
+    }
+    /* medi-contact-us-end */
+
+    /* medi-contact-form-start */
+    .contact-form{
+        margin-top: 2.8em;
+    }
+    .medi-contact-form{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact-form-wrong{
+        padding: 0px 2.8em;
+        padding-top: 2em;
+        padding-bottom: 4em;
+        
+    }
+    .contact-form-dis{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .contact-form-btn{
+        padding: 20px 40px;
+        border: none;
+    }
+    /* medi-contact-form-end */
+
+    /* medi-footer-start */
+    .main-part-1{
+        padding: 1em;
+        margin-bottom: 20px;
+    }
+    .main-part-2{
+        padding: 1em;
+        margin-bottom: 20px; 
+    }
+    .main-part-3{
+        padding: 1em;
+        margin-bottom: 20px;  
+    }
+    .main-part-3>p i {
+        padding-right: 1em;
+        color: black;
+    } 
+    .main-part-3>p span {
+        padding-left: 1px;
+    }   
+    .part-3-list li span{
+        padding-right: 1em;
+    }
+    /*medi-footer-end */
+
+    .w-md-1 {
+        width: 8.33%;
+    }
+    
+    .w-md-2 {
+        width: 16.66%;
+    }
+    
+    .w-md-3 {
+        width: 25%;
+    }
+    
+    .w-md-4 {
+        width: 33.33%;
+    }
+    
+    .w-md-5 {
+        width: 41.66%;
+    }
+    
+    .w-md-6 {
+        width: 50%;
+    }
+    
+    .w-md-7 {
+        width: 58.33%;
+    }
+    
+    .w-md-8 {
+        width: 66.66%;
+    }
+    
+    .w-md-9 {
+        width: 75%;
+    }
+    
+    .w-md-10 {
+        width: 83.33%;
+    }
+    
+    .w-md-11 {
+        width: 91.66%;
+    }
+    
+    .w-md-12 {
+        width: 100%;
+    }
+}
+
+/* 576-767 */
+@media (max-width: 767px) {
+    
+    .container{
+        width: 540px;
+        margin: 0px auto;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    /* common-medi-css-start */
+    .w-s-none{
+        display: none;
+    }
+    .x-s-between{
+        justify-content: space-between;
+    }
+    .w-s-block{
+        display: block;
+    }
+    /* common-medi-css-end */
+
+    .w-s-1 {
+        width: 8.33%;
+    }
+    
+    .w-s-2 {
+        width: 16.66%;
+    }
+    
+    .w-s-3 {
+        width: 25%;
+    }
+    
+    .w-s-4 {
+        width: 33.33%;
+    }
+    
+    .w-s-5 {
+        width: 41.66%;
+    }
+    
+    .w-s-6 {
+        width: 50%;
+    }
+    
+    .w-s-7 {
+        width: 58.33%;
+    }
+    
+    .w-s-8 {
+        width: 66.66%;
+    }
+    
+    .w-s-9 {
+        width: 75%;
+    }
+    
+    .w-s-10 {
+        width: 83.33%;
+    }
+    
+    .w-s-11 {
+        width: 91.66%;
+    }
+    
+    .w-s-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    
+    .container{
+        width: 100%;
+    }
+
+    /* common-medi-css-start */
+    .w-xs-none{
+        display: none;
+    }
+    .w-xs-between{
+        justify-content: space-between;
+    }
+    .w-xs-block{
+        display: block;
+    }
+    /* common-medi-css-end */
+    .toggle-menu{
+        padding: 0px 17px;
+        padding-top: 5px;
+    }
+    .w-xs-1 {
+         width: 8.33%;
+    }
+    
+    .w-xs-2 {
+        width: 16.66%;
+    }
+    
+    .w-xs-3 {
+        width: 25%;
+    }
+    
+    .w-xs-4 {
+        width: 33.33%;
+    }
+    
+    .w-xs-5 {
+        width: 41.66%;
+    }
+    
+    .w-xs-6 {
+        width: 50%;
+    }
+    
+    .w-xs-7 {
+        width: 58.33%;
+    }
+    
+    .w-xs-8 {
+        width: 66.66%;
+    }
+    
+    .w-xs-9 {
+        width: 75%;
+    }
+    
+    .w-xs-10 {
+        width: 83.33%;
+    }
+    
+    .w-xs-11 {
+        width: 91.66%;
+    }
+    
+    .w-xs-12 {
+        width: 100%;
+    }
+
+    .w-xs-none{
+        display: none;
+    }
+}
